@@ -13,6 +13,9 @@ import React from 'react'
 //   )
 // }
 
-export const Helloworld = () => (<div>Hola Mundo... super simplificado..</div>);
+export const Helloworld = () => (
+<div>Hola Mundo... super simplificado..</div>
+
+);
 
 //export default App;
