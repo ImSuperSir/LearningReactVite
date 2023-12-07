@@ -1,5 +1,3 @@
-import { Fragment }  from 'react'
-
 //Esta es mi primera aplicacion
 
 export const MyFirstApp = () => (
