@@ -11,6 +11,6 @@ import './styles.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <MyFirstApp/>
+    <MyFirstApp title='Hola, soy Lauro' subtitle="& I'm a Software Engineer"/>
   </React.StrictMode>
 );

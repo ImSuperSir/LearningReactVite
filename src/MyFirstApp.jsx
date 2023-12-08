@@ -18,16 +18,16 @@ const getSumaNumeros = (a, b) =>
 // </>
 // );
 
-export const MyFirstApp = (props) =>
+export const MyFirstApp = ({title="Hola, soy Lauro Ramirez", subtitle="subtitulo"}) =>
 {
   // const lValor = GetUserName();
   return (
     <>
       {
   /*Aca puedo tranquilamente agregar comentarios  */}
-      <h1>{props.title}</h1>
+      <h1>{title}</h1>
       {/* <h2>{getSumaNumeros(2, 5)}</h2> */}
-      <h2>Soy un subtitulo</h2>
+      <h2>{subtitle}</h2>
     </>
   )
 }
