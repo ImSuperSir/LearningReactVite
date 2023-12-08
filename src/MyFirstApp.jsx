@@ -27,12 +27,7 @@ const getSumaNumeros = (a, b) =>
 
 export const MyFirstApp = ({ title, subtitle = "subtitulo" }) =>
 {
-  if (!title)
-  {
-    throw new Error('El titulo es absolutamente necesario.');
-  }
-  // const lValor = GetUserName();
-  return (
+   return (
     <>
       {
   /*Aca puedo tranquilamente agregar comentarios  */}
