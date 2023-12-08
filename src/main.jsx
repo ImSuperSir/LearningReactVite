@@ -11,6 +11,7 @@ import './styles.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <MyFirstApp title='Hola, soy Lauro' subtitle="& I'm a Software Engineer"/>
+    {/* <MyFirstApp  title="Software Engineer" subtitle="Lauro Ramirez H."/> */}
+    <MyFirstApp />
   </React.StrictMode>
 );
