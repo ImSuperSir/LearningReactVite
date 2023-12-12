@@ -17,8 +17,9 @@ describe('Pruebas en 05-funciones', () =>
 
   });
 
-  test('should get a userName', () => {
-    
+  test('should get a userName', () =>
+  {
+
 
 
     const lUserID = {
@@ -31,14 +32,14 @@ describe('Pruebas en 05-funciones', () =>
 
 
     // expect(lUserID).toEqual(lNewUserID);
-
+ 
     expect(lNewUserID).toEqual({
       uid: 'ABC567',
-      username: 'Lauro'.toUpperCase()
+      username: 'Lauro'
     });
 
 
   })
-  
+
 
 })
