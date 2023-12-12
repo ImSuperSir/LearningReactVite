@@ -7,33 +7,14 @@
 import PropTypes from "prop-types";
 
 
-const GetUserName = () =>
+
+export const MyFirstApp = ({ title, subtitle, name }) =>
 {
-  return 'Ramirez está viviendo en Vancouver BC, Canada.';
-};
-
-const getSumaNumeros = (a, b) =>
-{
-  return (a + b);
-}
-
-
-// export const MyFirstApp = () => (
-// <>
-// <h1>Esta es mi primera aplicación</h1>
-// <p>Este es un segundo elemento</p>
-// </>
-// );
-
-export const MyFirstApp = ({ title, subtitle = "subtitulo" }) =>
-{
-   return (
+  return (
     <>
-      {
-  /*Aca puedo tranquilamente agregar comentarios  */}
       <h1>{title}</h1>
-      {/* <h2>{getSumaNumeros(2, 5)}</h2> */}
       <h2>{subtitle}</h2>
+      <p>{name}</p>
     </>
   )
 }
@@ -56,5 +37,6 @@ Los default props se cargan antes que los propTypes, por eso no manda error si n
 se envian desde la página */
 MyFirstApp.defaultProps = {
   subtitle: "Ingeniero de Software",
-  title: "Lauro Ramirez",
+  // title: "Lauro Ramirez",
+  name: 'Frida Sophia Ramírez'
 }
