@@ -12,10 +12,13 @@ export const MyFirstApp = ({ title, subtitle, name }) =>
 {
   return (
     <>
-      <h1>{title}</h1>
+      {/* <div data-testid="test-title">{title}</div> */}
+      <h1 data-testid="test-title">{title}</h1>
+      {/* <h1>{title}</h1> */}
       <h2>{subtitle}</h2>
       <p>{name}</p>
     </>
+
   )
 }
 
