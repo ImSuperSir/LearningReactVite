@@ -15,7 +15,9 @@ exports[`We are testing Counter App should compare the snapshot 1`] = `
   <button>
      -1 
   </button>
-  <button>
+  <button
+    aria-label="btn-reset"
+  >
     Reset
   </button>
 </div>
